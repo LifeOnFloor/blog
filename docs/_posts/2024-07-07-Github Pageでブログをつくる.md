@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Github Pageでブログをつくる"
+date:   2024-07-07 21:44:59 +0900
+categories: posts
+---
+
+
 ## Github
 ### newRepository
 1. Githubで新リポジトリを作成。
