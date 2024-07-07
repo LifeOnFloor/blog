@@ -25,13 +25,21 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "/https://LifeOnFloor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  LifeOnFloor
 
+timezone: Asia/Tokyo
+encoding: utf-8
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
 markdown: kramdown
-highlighter: rouge
+# highlighter: rouge
+kramdown:
+  syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    line_numbers: table
+    bold_every: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default.
